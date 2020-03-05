@@ -22,7 +22,7 @@ import axios from 'axios'
 export default {
   mounted () {
     axios
-      .post('http://127.0.0.1:8000/api/survey',
+      .post('https://thorium.jacobhenning.com/api/survey',
         {
           identifier: this.$store.state.name,
           question_count: 5,

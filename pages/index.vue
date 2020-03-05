@@ -24,7 +24,7 @@ export default {
   },
   mounted () {
     axios
-      .get('http://127.0.0.1:8000/api/survey')
+      .get('https://thorium.jacobhenning.com/api/survey')
       .then((response) => {
         this.entries = response.data
       })
